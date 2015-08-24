@@ -1,6 +1,6 @@
 {
   "name": "react-code39svg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Render barcodes.",
   "main": "./lib/index.js",
   "publishConfig": {
