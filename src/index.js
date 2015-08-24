@@ -30,6 +30,7 @@ export default class Code39Svg extends React.Component {
 
     return (
       <svg
+        style={{display: 'block'}}
         preserveAspectRatio="none"
         width={this.props.width}
         height={this.props.height}
