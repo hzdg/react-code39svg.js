@@ -1,11 +1,8 @@
 {
   "name": "react-code39svg",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Render barcodes.",
   "main": "./lib/index.js",
-  "publishConfig": {
-    "registry": "http://npmregistry.hzdg.com"
-  },
   "dependencies": {
     "tualo-code39": "0.0.1"
   },
