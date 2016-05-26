@@ -1,13 +1,17 @@
 import React, {PropTypes} from 'react';
 import {Code39} from 'tualo-code39';
 
+const stringOrNumber = PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.string
+  ])
 
 export default class Code39Svg extends React.Component {
 
   static propTypes = {
     children: PropTypes.string.isRequired,
-    width: PropTypes.number.isRequired,
-    height: PropTypes.number.isRequired,
+    width: stringOrNumber.isRequired,
+    height: stringOrNumber.isRequired,
   }
 
   render() {
